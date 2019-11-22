@@ -24,11 +24,9 @@ def multiplication(num1, num2)
 end
 
 def modulo(num1, num2)
-  
-  
-  num3 = num1 - div 
-  
-  
+   div = num1 / num2
+  num3 = div * num2
+  mod = num1 - num3
   puts mod
   mod 
 
